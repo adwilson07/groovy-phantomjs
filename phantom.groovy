@@ -31,8 +31,8 @@ import java.net.URL;
 Logger logger = Logger.getLogger("");
 logger.setLevel(Level.WARNING);
 
-//PHANTOMJS_PATH = "/usr/local/share/phantomjs-1.9.2-linux-x86_64/bin/phantomjs"
-PHANTOMJS_PATH = "/home/calum/phantomjs/phantomjs-1.9.2-linux-i686/bin/phantomjs"
+PHANTOMJS_PATH = "/usr/local/share/phantomjs-1.9.2-linux-x86_64/bin/phantomjs"
+//PHANTOMJS_PATH = "/home/calum/phantomjs/phantomjs-1.9.2-linux-i686/bin/phantomjs"
 
 DesiredCapabilities caps = new DesiredCapabilities();
 caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
